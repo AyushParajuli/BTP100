@@ -26,7 +26,7 @@ void break_names(char *name, char *first_name, char *last_name)
         last_name++;
         name++;
     }
-    *last_name = '\0';
+    *last_name = '\0'; 
 }
 
 void get_name(char *name)
