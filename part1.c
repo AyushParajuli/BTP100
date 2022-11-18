@@ -15,9 +15,9 @@ struct patient
 
 struct database
 {
-    struct patient pat[16];
+
     int num; // number of patient currently on database.
-};
+}pat[16];
 
 void add_patient(struct database *data)
 {
